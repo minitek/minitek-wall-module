@@ -1,10 +1,10 @@
 <?php
 /**
-* @title				Minitek Wall
-* @copyright   	Copyright (C) 2011-2020 Minitek, All rights reserved.
-* @license   		GNU General Public License version 3 or later.
-* @author url   https://www.minitek.gr/
-* @developers   Minitek.gr
+* @title		Minitek Wall
+* @copyright	Copyright (C) 2011-2020 Minitek, All rights reserved.
+* @license		GNU General Public License version 3 or later.
+* @author url	https://www.minitek.gr/
+* @developers	Minitek.gr
 */
 
 defined('_JEXEC') or die;
@@ -50,11 +50,11 @@ $lang->load('com_minitekwall', JPATH_SITE);
 
 // Load controller
 $config = array(
-	'base_path' 		=> JPATH_SITE .'/components/com_minitekwall',
-	'view_path' 		=> JPATH_SITE .'/components/com_minitekwall/src/Module/views',
-	'model_path' 		=> JPATH_SITE .'/components/com_minitekwall/src/Module/models',
-	'name' 					=> 'Module', // view prefix
-	'model_prefix' 	=> 'ModuleModel', // model prefix
+	'base_path'		=> JPATH_SITE .'/components/com_minitekwall',
+	'view_path'		=> JPATH_SITE .'/components/com_minitekwall/src/Module/views',
+	'model_path'	=> JPATH_SITE .'/components/com_minitekwall/src/Module/models',
+	'name'			=> 'Module', // view prefix
+	'model_prefix'	=> 'ModuleModel', // model prefix
 );
 $controller = new DisplayController($config);
 $controller->execute('display');
